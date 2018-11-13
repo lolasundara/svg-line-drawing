@@ -8,6 +8,45 @@ h1 {
   animation: eye 1s linear forwards;
   opacity: 0;
 }
+
+#rainbow-red {
+  animation: rainbow 2s 1s linear forwards;
+  stroke-dasharray: 1244px;
+  stroke-dashoffset: 1244px;
+}
+
+#rainbow-orange {
+  animation: rainbow 2s 1s linear forwards;
+  stroke-dasharray: 1367px;
+  stroke-dashoffset: 1367px;
+}
+
+#rainbow-yellow {
+  animation: rainbow 2s 1s linear forwards;
+  stroke-dasharray: 1484px;
+  stroke-dashoffset: 1484px;
+}
+
+#rainbow-green {
+  animation: rainbow 2s 1s linear forwards;
+  stroke-dasharray: 1597px;
+  stroke-dashoffset: 1597px;
+}
+
+#rainbow-blue {
+  animation: rainbow 2s 1s linear forwards;
+  stroke-dasharray: 1706px;
+  stroke-dashoffset: 1706px;
+}
+
+#rainbow-indigo {
+  animation: rainbow 2s 1s linear forwards;
+  stroke-dasharray: 1813px;
+  stroke-dashoffset: 1813px;
+}
+
+#rainbow-violet {
+  animation: rainbow 2s 1s linear forwards;
 @keyframes rainbow {
 
   to {
